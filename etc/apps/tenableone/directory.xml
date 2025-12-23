@@ -1,0 +1,78 @@
+tenableone/
+├── appserver/
+│   └── static/
+│       ├── appIcon.png
+│       ├── appLogo.png
+│       └── tenable_logo.png
+│
+├── bin/
+│   ├── tenableone_ingest.py
+│   ├── tenable_vm.py
+│   ├── tenable_was.py
+│   ├── tenable_asm.py
+│   ├── tenable_ot.py
+│   ├── tenable_identity.py
+│   ├── tenable_cloud.py
+│   ├── tenable_target_groups.py
+│   ├── tenable_users.py
+│   ├── tenable_agents.py
+│   └── utils/
+│       ├── api.py
+│       ├── auth.py
+│       ├── logging.py
+│       └── time.py
+│
+├── default/
+│   ├── app.conf
+│   ├── commands.conf
+│   ├── datamodels.conf
+│   ├── eventtypes.conf
+│   ├── indexes.conf
+│   ├── inputs.conf
+│   ├── props.conf
+│   ├── savedsearches.conf
+│   ├── setup.xml
+│   ├── tags.conf
+│   ├── transforms.conf
+│   └── web.conf
+│
+├── local/
+│   └── (empty – runtime configs only)
+│
+├── lookups/
+│   ├── severity_lookup.csv
+│   ├── plugin_family_lookup.csv
+│   ├── asset_type_lookup.csv
+│   └── cloud_provider_lookup.csv
+│
+├── metadata/
+│   └── default.meta
+│
+├── nav/
+│   └── nav.xml
+│
+├── README/
+│   ├── README.md
+│   ├── INSTALL.md
+│   └── UPGRADE.md
+│
+└── ui/
+    └── views/
+        ├── overview.xml
+        ├── assets.xml
+        ├── findings.xml
+        ├── vm_overview.xml
+        ├── vm_patching.xml
+        ├── vm_agents.xml
+        ├── was_overview.xml
+        ├── asm_overview.xml
+        ├── ot_overview.xml
+        ├── ot_sensors.xml
+        ├── identity_overview.xml
+        ├── cloud_overview.xml
+        ├── target_groups.xml
+        ├── tagging.xml
+        ├── exclusions.xml
+        ├── users.xml
+        ├── operations.xml
+        └── administration.xml
