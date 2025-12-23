@@ -1,9 +1,7 @@
 # TenableOne_For_Splunk_App
-TenableOne for Splunk App
 
 # Tenable Vulnerability Management (TVM)
 
-Foundational component
 
 Capabilities:
 	•	Asset discovery (active scanning)
@@ -13,8 +11,6 @@ Capabilities:
 	•	Scan configuration & execution
 	•	Credentialed vs non-credentialed coverage
 	•	Scan recency & freshness
-
-This is the core data plane for TenableOne.
 
 ⸻
 
@@ -160,7 +156,6 @@ Capabilities:
 	•	Permissions
 	•	API access
 
-
 ⸻
 
 #  Platform Telemetry & Health
@@ -174,3 +169,10 @@ Capabilities:
 	•	Data freshness
 	•	Ingestion health
 
+# Attack Path Analysis
+
+	•	Correlates vulnerabilities, identities, misconfigurations, and exposure
+	•	Models attacker movement
+	•	Identifies choke points and high-impact paths
+	•	Prioritizes remediation based on exploitability + reachability, not severity alone
+	
