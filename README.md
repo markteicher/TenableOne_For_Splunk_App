@@ -4,19 +4,19 @@
 
 
 Capabilities:
-	•	Asset discovery (active scanning)
+	- Asset discovery (active scanning)
 
-	•	Vulnerability detection (plugins, CVEs)
+	- Vulnerability detection (plugins, CVEs)
 
-	•	Severity & CVSS
+	- Severity & CVSS
 
-	•	Patchability / solution guidance
+	- Patchability / solution guidance
 
-	•	Scan configuration & execution
+	- Scan configuration & execution
 
-	•	Credentialed vs non-credentialed coverage
+	- Credentialed vs non-credentialed coverage
 
-	•	Scan recency & freshness
+	- Scan recency & freshness
 
 
 ⸻
@@ -26,12 +26,18 @@ Capabilities:
 Application-layer exposure
 
 Capabilities:
-	•	Web application inventory
-	•	Dynamic web scanning
-	•	Authenticated web scanning
-	•	API scanning
-	•	Findings & severity
-	•	Scan execution state
+	- Web application inventory
+
+	- Dynamic web scanning
+
+	- Authenticated web scanning
+
+	- API scanning
+
+	- Findings & severity
+
+	- Scan execution state
+
 
 Distinct from VM — different engine, different asset type.
 
@@ -42,13 +48,17 @@ Distinct from VM — different engine, different asset type.
 External exposure discovery
 
 Capabilities:
-	•	Internet-facing asset discovery
-	•	Domains, IPs, cloud resources
-	•	Continuous change detection
-	•	Net-new / removed assets
-	•	Attribution & ownership inference
+	- Internet-facing asset discovery
 
-This is outside-in visibility, not scanning.
+	- Domains, IPs, cloud resources
+
+	- Continuous change detection
+
+	- Net-new / removed assets
+
+	- Attribution & ownership inference
+
+
 
 ⸻
 # Tenable OT Security
@@ -56,14 +66,18 @@ This is outside-in visibility, not scanning.
 Operational Technology / IoT
 
 Capabilities:
-	•	Passive OT asset discovery
-	•	Protocol inspection
-	•	Asset classification
-	•	Purdue model context
-	•	Sensor-based visibility
-	•	Sensor health & performance
+	- Passive OT asset discovery
 
-No active scanning by default — fundamentally different data source.
+	- Protocol inspection
+
+	- Asset classification
+
+	- Purdue model context
+
+	- Sensor-based visibility
+
+	- Sensor health & performance
+
 
 ⸻
 # Tenable Identity Exposure
@@ -71,13 +85,16 @@ No active scanning by default — fundamentally different data source.
 Identity-centric risk
 
 Capabilities:
-	•	Identity discovery
-	•	Privileged accounts
-	•	Exposure paths
-	•	Misconfigurations
-	•	Identity attack paths
+	- Identity discovery
 
-This is identity graph + exposure, not vulnerability scanning.
+	- Privileged accounts
+
+	- Exposure paths
+
+	- Misconfigurations
+
+	- Identity attack paths
+
 
 ⸻
 # Tenable Cloud Security
@@ -85,13 +102,16 @@ This is identity graph + exposure, not vulnerability scanning.
 Cloud-native exposure
 
 Capabilities:
-	•	Cloud asset inventory
-	•	Misconfigurations (CSPM)
-	•	IAM risk
-	•	Workload exposure
-	•	Cloud attack paths
+	- Cloud asset inventory
 
-Cloud control plane + workload posture.
+	- Misconfigurations (CSPM)
+
+	- IAM risk
+
+	- Workload exposure
+
+- Cloud attack paths
+
 
 ⸻
 
@@ -100,10 +120,13 @@ Cloud control plane + workload posture.
 Cross-domain analytics layer
 
 Capabilities:
-	•	Unified exposure score
-	•	Risk trends over time
-	•	Prioritization across surfaces
-	•	Correlation across VM, WAS, ASM, OT, Identity, Cloud
+	- Unified exposure score
+
+	- Risk trends over time
+
+	- Prioritization across surfaces
+
+	- Correlation across VM, WAS, ASM, OT, Identity, Cloud
 
 
 
