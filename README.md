@@ -5,12 +5,19 @@
 
 Capabilities:
 	•	Asset discovery (active scanning)
+
 	•	Vulnerability detection (plugins, CVEs)
+
 	•	Severity & CVSS
+
 	•	Patchability / solution guidance
+
 	•	Scan configuration & execution
+
 	•	Credentialed vs non-credentialed coverage
+
 	•	Scan recency & freshness
+
 
 ⸻
 
